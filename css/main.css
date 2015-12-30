@@ -1,3 +1,4 @@
+/*MAIN*/
 @font-face {
     font-family: IndieFlower;
     src: url(../fonts/IndieFlower.ttf);
@@ -5,4 +6,70 @@
 
 body {
 	font-family: 'IndieFlower', cursive;
+	color: white;
+}
+
+.row {
+	margin: 0px;
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
+a, a:hover {
+	text-decoration: none;
+}
+
+/*HEADER AND FOOTER*/
+header, footer {
+	background-color: #234465;
+	text-align: center;
+	padding: 10px 0px;
+}
+
+/*MAIN SECTION*/
+main .col-md-10 {
+	background-color: white;
+	min-height: 500px;
+}
+
+main .col-md-3 {
+	color: #ffa000;
+	padding: 0px;
+	margin: 10px 30px;
+	min-height: 500px;
+	background-color: rgba(35, 68, 101, 0.1);
+}
+
+main .col-md-3:hover .mainBoxText, main .col-md-3:hover button {
+	background-color: #ffa000;
+	color: #234465;
+}
+
+.mainBoxText {
+	padding: 10px;
+	color: #ffa000;
+	background-color: #234465;
+	text-align: center;
+	font-size: 20px;
+    font-weight: 700;
+}
+
+ul {
+	min-height: 400px;
+}
+
+button {
+	padding: 10px;
+    width: 100%;
+    color: #ffa000;
+	background-color: #234465;
+	font-size: 20px;
+	border: 0px;
+}
+
+footer {
+	min-height: 100px;
 }

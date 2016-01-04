@@ -1,0 +1,52 @@
+main .col-md-3 {
+	min-height: auto;
+}
+main > .row {
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+main > .row > div {
+	margin: 10px 1%;
+	width: 31%;
+	background-color: rgba(35, 68, 101, 0.1);
+}
+.thumbnail img {
+	height: 200px;
+}
+.thumbnail {
+	margin: 0;
+}
+.cell {
+	position: relative;
+}
+.cell .img-header {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	bottom: 0;
+	background-color: rgba(35, 68, 101, 0.8);
+}
+.img-header h3 {
+	margin: 5px 0;
+	font-size: 1.3em;
+	color: #FFA000;
+}
+@media all and (max-width: 992px) {
+	main > .row > div {
+		margin: 10px 2%;
+		width: 46%;
+		border-radius: 4px;
+	}
+	.thumbnail {
+		background: none;
+		border: none;
+	}
+}
+@media all and (max-width: 768px) {
+	main > .row > div {
+		margin: 7px 4%;
+		width: 92%;
+		background: none;
+	}
+}

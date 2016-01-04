@@ -9,6 +9,10 @@ body {
 	color: white;
 }
 
+main {
+	color: #234465;
+}
+
 .row {
 	margin: 0px;
 }
@@ -30,12 +34,12 @@ header, footer {
 }
 
 /*MAIN SECTION*/
-main .col-md-10 {
+main .col-md-12 {
 	background-color: white;
 	min-height: 500px;
 }
 
-main .col-md-3 {
+main .col-md-2 {
 	color: #ffa000;
 	padding: 0px;
 	margin: 10px 30px;
@@ -43,7 +47,7 @@ main .col-md-3 {
 	background-color: rgba(35, 68, 101, 0.1);
 }
 
-main .col-md-3:hover .mainBoxText, main .col-md-3:hover button {
+main .col-md-2:hover .mainBoxText, main .col-md-2:hover button {
 	background-color: #ffa000;
 	color: #234465;
 }

@@ -9,6 +9,7 @@ main > .row {
 main > .row > div {
 	margin: 10px 1%;
 	width: 31%;
+	padding: 0;
 	background-color: rgba(35, 68, 101, 0.1);
 }
 .thumbnail img {
@@ -47,6 +48,5 @@ main > .row > div {
 	main > .row > div {
 		margin: 7px 4%;
 		width: 92%;
-		background: none;
 	}
 }

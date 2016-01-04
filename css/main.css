@@ -3,9 +3,12 @@
     font-family: IndieFlower;
     src: url(../fonts/IndieFlower.ttf);
 }
-
+@font-face {
+    font-family: KgSorryNotSorryChub;
+    src: url(../fonts/KGSorryNotSorryChub.ttf);
+}
 body {
-	font-family: 'IndieFlower', cursive;
+	font-family: 'KgSorryNotSorryChub';
 	color: white;
 }
 
@@ -71,7 +74,20 @@ header, footer {
 	text-align: center;
 	padding: 10px 0px;
 }
-
+header h1 {
+	font-family: 'IndieFlower', cursive;
+}
+header p, nav {
+	letter-spacing: 2px;
+}
+header a:hover {
+	background-color: #FFA000;
+	color: #234465;
+}
+header a.active {
+	background-color: #FFA000;
+	color: #234465;
+}
 /*MAIN SECTION*/
 main .col-md-12 {
 	background-color: white;
@@ -135,9 +151,25 @@ footer {
 	padding-left: 10px;
 	margin: 60px 0px 50px 10%;
 }
-
-
+@media only screen and (max-width: 768px) {
+	body > header.row > nav > ul {
+		width: 80%;
+	}
+}
 @media only screen and (max-width: 640px) {
+	/* Header */
+	header a.active {
+		color: #FFF;
+		background: none;
+	}
+	header a:hover {
+		background: none;
+		
+	}
+	header h1 {
+		font-size: 1.9em;
+	}
+	/* *************** */
 	/*Navigation*/
 	body > header.row {
 		height: 300px;
@@ -155,6 +187,5 @@ footer {
 		display: block;
 		padding: 2px 0;
 	}
-
 	/************/
 }

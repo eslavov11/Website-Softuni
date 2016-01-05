@@ -89,6 +89,16 @@ header li.active a {
 	color: #234465;
 }
 /*MAIN SECTION*/
+main ul {
+	list-style-type: none;
+	padding: 0px 5px;
+    text-align: center;
+}
+
+main ul li {
+	padding: 15px 0px;
+}
+
 main .col-md-12 {
 	background-color: white;
 	min-height: 500px;

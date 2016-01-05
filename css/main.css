@@ -198,4 +198,22 @@ footer {
 		padding: 2px 0;
 	}
 	/************/
+
+
+	/*Jokes section*/
+	div#jokes-div {
+		display: block;
+	}
+
+	div#jokes-div p {
+		margin-left: 0;
+	}
+
+	div#jokes-div > div#left-joke-div,
+	div#jokes-div > div#right-joke-div  {
+		width: 100%;
+		text-align: center;
+	}
+
+	/**************/
 }

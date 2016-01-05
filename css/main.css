@@ -22,7 +22,7 @@ main {
 
 /* Navigation menu*/
 .row > nav {
-	height: 50px;
+	min-height: 70px;
 	font-size: 18px;
 }
 
@@ -41,7 +41,7 @@ main {
 .row > nav > ul > li {
 	display: inline-block;
 	height: 30px;
-	padding: 3px 0;
+	padding: 13px 0;
 	color: #ffa000;;
 	box-sizing: content-box;
 }
@@ -55,8 +55,6 @@ body > header > nav > ul > li > a {
 	color: inherit;
 	padding: 20px;
 }
-
-
 /******************/
 
 .col-centered {
@@ -80,12 +78,14 @@ header h1 {
 header p, nav {
 	letter-spacing: 2px;
 }
-header a:hover {
+header li:hover {
 	background-color: #FFA000;
 	color: #234465;
 }
-header a.active {
+header li.active {
 	background-color: #FFA000;
+}
+header li.active a {
 	color: #234465;
 }
 /*MAIN SECTION*/
@@ -116,7 +116,7 @@ main .col-md-2:hover .mainBoxText, main .col-md-2:hover button {
     font-weight: 700;
 }
 
-ul {
+.heigh {
 	min-height: 400px;
 }
 

@@ -99,11 +99,6 @@ main ul li {
 	padding: 15px 0px;
 }
 
-main .col-md-12 {
-	background-color: white;
-	min-height: 500px;
-}
-
 main .col-md-2 {
 	color: #ffa000;
 	padding: 0px;
@@ -112,7 +107,7 @@ main .col-md-2 {
 	background-color: rgba(35, 68, 101, 0.1);
 }
 
-main .col-md-2:hover .mainBoxText, main .col-md-2:hover button {
+main .col-md-2:hover .mainBoxText {
 	background-color: #ffa000;
 	color: #234465;
 }
@@ -128,15 +123,6 @@ main .col-md-2:hover .mainBoxText, main .col-md-2:hover button {
 
 .heigh {
 	min-height: 400px;
-}
-
-button {
-	padding: 10px;
-    width: 100%;
-    color: #ffa000;
-	background-color: #234465;
-	font-size: 20px;
-	border: 0px;
 }
 
 footer {

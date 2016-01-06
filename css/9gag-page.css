@@ -2,13 +2,13 @@ main {
 	width: 100%;
 }
 
-article {
+div {
 	width: 100%;
 	margin: 0 auto;
 	border-bottom: 2px solid #eee;
 }
 
-article > img {
+div > img {
 	display: block;
 	margin: 0 auto;
 	padding: 20px 0; 

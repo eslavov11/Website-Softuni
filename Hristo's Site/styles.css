@@ -1,0 +1,152 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+	text-align: center;    
+    /*margin: 0 auto;*/
+    margin-bottom: 60px;
+    background: url(Pics/old_computers_large.jpg) fixed no-repeat;
+    background-size: cover;
+    color: #eae1b4;
+    font-family: arial;
+}
+header {
+	height: 60px;
+	background-color: rgba(0,0,0,0.6);
+}
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+}
+.inline {
+	display: inline-block;	
+}
+nav>ul {
+	position: absolute;
+	left: 100px;
+	top: 15px;	
+}
+nav>ul>li>a {
+	text-decoration: none;
+	color: #eae1b4;
+	font-weight: bold;
+}
+footer>ul>li>a, footer>span>a {
+	text-decoration: none;
+	color: #ea9393;	
+}
+ul>li {
+	display: inline-block;
+	list-style: none;
+	margin: 20px 10px;
+}
+h1, h2, label, #submitSection {
+	margin-top: 100px;
+	/*color: #ea9393;*/
+	/*color:white;*/
+}
+h1 {
+	margin-top: 150px;
+	font-size: 54px;
+}
+h2 {
+	font-size: 35px;
+}
+img {
+	width: 70%;
+	/*height: 480px;*/
+	display: inline-block;
+	margin: 10px;
+	border: rgba(255,255,255,0.5) solid 20px;
+}
+iframe {
+	/*width: 70%;*/
+	/*height: 480px;*/
+	display: inline-block;
+	margin: 10px;
+	border: rgba(255,255,255,0.5) solid 20px;
+
+}
+
+#text-wrapper {	
+	/*border: 1px solid red;*/
+	width: 70%;
+	text-align: right;
+	/*margin:0 auto;*/
+	z-index: 1;
+	/*color: #7f5050;*/
+	color:#4c2626;
+	/*background-color: rgba(255,255,255,0.5);*/	
+	/*text-shadow: 2px 2px white ;*/
+	/*text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;*/
+	/*text-shadow: -2px 0 #aac195, 0 2px #aac195, 2px 0 #aac195, 0 -2px #aac195;*/
+	text-shadow: -3px 0 #aac195, 0 3px #aac195, 3px 0 #aac195, 0 -3px #aac195;
+	padding: 10px;
+
+	position: absolute;
+	right: 0;
+}
+#searchbox{
+	float: right;
+	margin-right:50px;
+	margin-top: 20px;	
+}
+input[type=text] {
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+	font-size: 16px;
+	padding: 5px;
+
+}
+#submitSection {
+	font-size: 20px;
+	/*float: right;*/
+	position: absolute;
+	bottom: 100px;
+	right: 100px;
+	font-weight: bold;
+}
+#fileUpl {
+	font-weight: bold;
+	font-size: 16px;
+	background-color: #eae1b4;
+	border-radius: 5px;	
+}
+#designer, #all-rights-reserved, #footerList{
+	display: inline-block;	
+}
+#designer {
+	float: right;
+	margin: 20px;
+	margin-right: 100px;
+}
+#all-rights-reserved {
+	float: left;
+	margin: 20px;
+	margin-left: 100px;
+}
+#video-background {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    /*background: url(polina.jpg) no-repeat;*/
+    background-size: cover;
+}
+
+
